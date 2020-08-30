@@ -1,6 +1,0 @@
-name: petclinic-chart
-version: 0.1.0
-description: Spring petclinic application Helm chart
-maintainers:
-  - Ashok Peravali
-

@@ -6,7 +6,7 @@ metadata:
     name: petclinic-app-deploy
     app: demo-petclinic-app
 spec:
-  replicas: 1
+  replicas: {{.Values.scale}}
   selector:
     matchLabels:
       name: petclinic-app-pod
@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: petclinic-app
-          image: ashoksuryap/spring-petclinic:2.3.0.BUILD-SNAPSHOT
+          image: ashoksuryap/spring-petclinic:{{.Values.tag}}
           ports:
             - containerPort: 9090
