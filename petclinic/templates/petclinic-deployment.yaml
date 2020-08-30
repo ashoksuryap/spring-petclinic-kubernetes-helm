@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: petclinic-app-deploy
+  labels:
+    name: petclinic-app-deploy
+    app: demo-petclinic-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: petclinic-app-pod
+      app: demo-petclinic-app
+
+  template:
+    metadata:
+      name: petclinic-app-pod
+      labels:
+        name: petclinic-app-pod
+        app: demo-petclinic-app
+    spec:
+      containers:
+        - name: petclinic-app
+          image: ashoksuryap/spring-petclinic:2.3.0.BUILD-SNAPSHOT
+          ports:
+            - containerPort: 9090
