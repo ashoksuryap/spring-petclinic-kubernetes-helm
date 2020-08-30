@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b61fa260-74ed-47e3-a899-062e5ea80048" name="Default Changelist" comment="metadata">
-      <change beforePath="$PROJECT_DIR$/.idea/azureSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-petclinic-kubernetes-helm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petclinic/chart.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/petclinic/templates/petclinic-deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/petclinic/templates/petclinic-service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petclinic/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/petclinic/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
